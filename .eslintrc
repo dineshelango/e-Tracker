@@ -1,0 +1,14 @@
+# @Author: GVEDAS
+# @Date:   2017-12-26T10:28:17+05:30
+# @Email:  gvedas@gvedas.com
+# @Last modified by:   GVEDAS
+# @Last modified time: 2017-12-27T17:30:35+05:30
+
+{
+  "extends": "airbnb",
+   "rules": {
+    "react/require-extension": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+  }
+}

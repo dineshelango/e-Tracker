@@ -1,0 +1,15 @@
+// @Author: GVEDAS
+// @Date:   2017-12-23T17:25:18+05:30
+// @Email:  gvedas@gvedas.com
+// @Last modified by:   GVEDAS
+// @Last modified time: 2017-12-27T12:16:38+05:30
+@import "config";
+@import "grid";
+
+body {
+  background-color: $body-background-color;
+  color: $body-font-color;
+}
+input {
+  color: #000;
+}
