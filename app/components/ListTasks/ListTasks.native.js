@@ -3,18 +3,20 @@
  * @Date:   2017-12-26T17:41:01+05:30
  * @Email:  gvedas@gvedas.com
  * @Last modified by:   GVEDAS
- * @Last modified time: 2017-12-27T15:34:31+05:30
+ * @Last modified time: 2017-12-28T17:58:42+05:30
  */
 import React from 'react';
 import { connect } from 'react-redux';
-import { ScrollView, Text } from 'react-native';
+import { View, ScrollView, Text } from 'react-native';
 import styles from '../../native/styles';
 import { fetchAllTasks } from '../../actions/tasks';
 
 class ListTasks extends React.Component {
   componentDidMount() {
     const { dispatch } = this.props;
-    dispatch(fetchAllTasks());
+    setTimeout(() => {
+      dispatch(fetchAllTasks());
+    }, 0);
   }
   render() {
     const { lists } = this.props;
@@ -22,9 +24,11 @@ class ListTasks extends React.Component {
       <Text style={styles.textMedium} key={ele.Created_date}>{ele.name}</Text>
     ));
     return (
-      <ScrollView style={styles.container}>
-        {listElements}
-      </ScrollView>
+      <View style={styles.container}>
+        <ScrollView>
+          {listElements}
+        </ScrollView>
+      </View>
     );
   }
 }

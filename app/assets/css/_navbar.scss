@@ -1,0 +1,58 @@
+// @Author: GVEDAS
+// @Date:   2017-12-28T09:38:03+05:30
+// @Email:  gvedas@gvedas.com
+// @Last modified by:   GVEDAS
+// @Last modified time: 2017-12-28T10:21:42+05:30
+.navbar {
+  width: 100%;
+  padding: 10px 10px;
+  min-height: 55px;
+  background-color: #fff;
+  line-height: 2.5em;
+  color: $body-background-color;
+  margin-bottom: 15px;
+}
+.navbar__title {
+  font-size: 2em;
+  float: left;
+  padding: 0px;
+}
+.navbar__icon {
+  float: right;
+}
+.navbar__menus {
+  margin: 0px;
+  padding: 0px;
+  float: right;
+  text-align: right;
+}
+.navbar__menus__item {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0px 12px
+}
+.navbar__menus__item a {
+  text-decoration: none;
+  color: $body-background-color;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    height: auto;
+    float: left;
+  }
+  .navbar__title, .navbar__menus {
+    float: left;
+    width: 100%;
+  }
+  .navbar__menus {
+    display: none;
+  }
+  .navbar__menus.open {
+    padding-top: 12px;
+    display: block;
+  }
+  .navbar__menus__item {
+    display: block;
+  }
+}

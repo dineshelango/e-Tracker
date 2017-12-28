@@ -1,0 +1,29 @@
+// @Author: GVEDAS
+// @Date:   2017-12-28T10:04:14+05:30
+// @Email:  gvedas@gvedas.com
+// @Last modified by:   GVEDAS
+// @Last modified time: 2017-12-28T10:07:19+05:30
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.btn:focus {
+  outline: 0;
+}

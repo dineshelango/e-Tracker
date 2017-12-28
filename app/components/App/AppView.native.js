@@ -3,7 +3,7 @@
  * @Date:   2017-12-23T16:33:04+05:30
  * @Email:  gvedas@gvedas.com
  * @Last modified by:   GVEDAS
- * @Last modified time: 2017-12-27T17:23:59+05:30
+ * @Last modified time: 2017-12-28T17:43:15+05:30
  */
 import React from 'react';
 import { View, Text } from 'react-native';
